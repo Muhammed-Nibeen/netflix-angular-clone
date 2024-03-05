@@ -47,7 +47,8 @@ export class BrowseComponent implements OnInit {
         console.log("res is", res);
         this.movies = res.movies.results as IVideoContent[];
         this.tvShows = res.tvShows.results as IVideoContent[];
-      
+        // console.log(profileimg);
+        
       })
   }
 
